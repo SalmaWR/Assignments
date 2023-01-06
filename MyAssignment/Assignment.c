@@ -10,8 +10,7 @@
 int main(void)
 {
 //Variables : Celsius and Fahrenheit
-int C;
-int F;
+int C; int F;
 //get the Celsius degree from the user
 printf("Please enter degree:");
 scanf("%d", &C);
