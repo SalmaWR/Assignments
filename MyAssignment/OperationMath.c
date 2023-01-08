@@ -53,5 +53,7 @@ printf("Result: %d\n", result);
 result = OperationMath('*',num1,num2);
 printf("Result: %d\n", result);
 
+result = OperationMath('%',num1,num2);
+printf("Result: %d\n", result);
 return(0);
 }
