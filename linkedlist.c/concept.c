@@ -4,6 +4,7 @@
 * @file: The concept of the tinked list 
 * @author: Salma Wagdy
 * @date: 02/01/2023
+*
 * 
 * @nodePtr: the "typedef" statement creates a new data type called "nodePtr" which is a pointer to a "node" structure
 * @node: the "typedef" statement creates a new data type called "node" which is the actual structure itself
