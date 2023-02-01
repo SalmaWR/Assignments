@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<stdlib.c>
+#include<stdlib.h>
 /**
 * @file: The concept of the tinked list 
 * @author: Salma Wagdy
@@ -31,16 +31,16 @@ nodePtr next;
 // The actual strcture itself will be stored in node
 typedef struct node node;
 
-int main (int argc, constant char * argv[])
+int main (int argc, const char * argv[])
 {
 //I intialize a pointer "frist" that point to the frist element (nodePtr is a predefined datatype)
 nodePtr first = NULL;
 
 // frist ptr defination to allocate memory
-frist = malloc (sizeof(node));
+first = malloc (sizeof(node));
 //next is already intialized pointer
-frist->next = NULL;
-frist->data = 61;
+first->next = NULL;
+first->data = 61;
 /*frsit->next = malloc(sizeof(node));
 *frist->next->next = NULL
 *frist->next->data = 62
@@ -49,10 +49,10 @@ frist->data = 61;
 //intialize a new pointer 
 nodePtr temp = NULL;
 temp = malloc(sizeof(node));
-temp->next = frist;
-frist = temp;
+temp->next = first;
+first = temp;
 
-printf("Hello, Egypt!\n");
+printf("%d\n", temp);
 
 return 0;
 }
